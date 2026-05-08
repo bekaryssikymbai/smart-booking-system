@@ -1,0 +1,11 @@
+package bekarys.group_project_manager.repository;
+
+
+
+import bekarys.group_project_manager.entity.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+    Optional<Student> findByEmail(String email);
+}
