@@ -40,6 +40,7 @@ src/main/java/bekarys/groupprojectmanager/
 ├── entity/ # Database entities (Student, Room, etc.)
 └── GroupProjectManagerApplication.java # Main entry point
 
+
 **Architecture:** Controller → Service → Repository → Database
 
 ---
@@ -58,7 +59,7 @@ src/main/java/bekarys/groupprojectmanager/
 
 ---
 
-##  REST API Endpoints
+## 🔗 REST API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -74,7 +75,7 @@ src/main/java/bekarys/groupprojectmanager/
 
 ---
 
-##  How to Run the Project
+## 🚀 How to Run the Project
 
 ### Prerequisites
 - Java 17 or higher
